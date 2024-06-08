@@ -28,16 +28,16 @@ The main display is the number of satellites that have a fix. The colour of the 
 
 #### SmartPort/FPORT/FBUS
 Through these telemetry systems. There is actually a flag for the aircraft being ready to fly. So this widget displays different colours for the readiness status.
-- $${\color{red}Red}$$ is used when there is no 3D fix with the minimum satellites
-- $${\color{orange}Orange}$$ is used when there is a 3D fix with the minimum satellites
-- $${\color{green}Green}$$ is used when there is a home fix
+- **Red** is used when there is no 3D fix with the minimum satellites
+- **Orange** is used when there is a 3D fix with the minimum satellites
+- **Green** is used when there is a home fix
 
 The sensors used are `480` in INAV 8.0 or above and `Tmp2` in older versions.
 
 #### CRSF
 With CRSF, all we have is the number satellite fixes. So we can only estimate the readiness status.
-- $${\color{red}Red}$$ is used when there are less than 6 satellite fixes
-- $${\color{orange}Orange}$$ is used when there are 6 or more satellite fixes
+- **Red** is used when there are less than 6 satellite fixes
+- **Orange** is used when there are 6 or more satellite fixes
 
 The sensor used is `GPS Sats`.
 
